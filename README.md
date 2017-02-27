@@ -1,0 +1,6 @@
+# ECS-289G-Visual-Recognition
+Pair Selection for View Invariance in Siamese Network
+
+First-person cameras are getting prevalent for sport enthusiasts, but the amount is still quite few. At the same time, convolutional neural networks (CNNs) made a big step forward since the occurrence of Alexnet. To take advantage of the existing numerous third-person videos on Internet and the success of CNNs, the transfer learning with the help of the Siamese network is a promising way to raise the video classification accuracy of first-person videos, given limited first-person video training dataset.
+
+To find the mapping between different views, we use the dataset that has synchronized videos in first-person view and third-person views. However, when the pair amount becomes larger, the training time takes longer. Therefore, in this work, we try to find the best strategy to do pair selection for view invariance training in Siamese network. From our experiment results, we show that pair selection should focus on hard negatives and clarify positive boundary by compensation. In addition, choosing an appropriate feature is very important to gain better results for view invariance training in Siamese network for multiple view videos.
